@@ -1,0 +1,153 @@
+/*GENERAL*/
+:root{
+    --yellow: #ffc836;
+    --red:#bd0017;
+    --mediumGrey:#d6d6d6;
+    --lightGrey:#f1f1f1;
+    --border:#d6d6d6;
+    --anthracite:#292929;
+    --white:#ffffff;
+    --black:#000000;
+    --shadow:#00000025;
+}
+@font-face {
+    font-family: "Lato";
+    src: url("/assets/fonts/Lato-Regular.ttf");
+}
+body{
+    font-family: "Lato";
+    background-color: var(--lightGrey);
+}
+a{
+    color: var(--black);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+/*BOUTONS*/
+.action-btn{
+    padding: 16px 32px;
+    background-color: var(--yellow);
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.cancel-btn{
+    padding: 16px 20px;
+    background-color: var(--lightGrey);
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.suppr-btn{
+    padding: 16px 20px;
+    background-color: var(--red);
+    color: var(--white);
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.gestion-action-btn{
+    padding: 5px 8px;
+    background-color: var(--yellow);
+    border-radius: 5px;
+}
+.gestion-suppr-btn{
+    padding: 5px 8px;
+    background-color: var(--red);
+    color: var(--white);
+    border-radius: 5px;
+}
+/*FORMULAIRES*/
+form{
+    background-color: var(--mediumGrey);
+    border-radius: 16px;
+}
+.connexion-form{
+    width: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.form-option{
+    width: 200px!important;
+    padding: 10px;
+    border: 2px solid transparent; /* Bordure par défaut (invisible) */
+    border-radius: 5px;
+    cursor: pointer;
+}
+legend{
+    font-size: 24px;
+    font-weight: bold;
+}
+.crud-form{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*INPUTS*/
+input{
+    border: none;
+    height: 24px;
+}
+input[type="submit"]{
+    padding: 0 32px;
+    border-radius: 5px;
+    background-color: var(--yellow);
+    color: black;
+}
+/*HEADER*/
+header{
+    padding: 16px 32px;
+    background-color: var(--mediumGrey);
+}
+/*PAGES*/
+.user-icon{
+    width: 32px;
+    height: 32px;
+}
+.fonctio-card{
+    border-radius: 16px;
+    background-color: var(--mediumGrey);
+    cursor: pointer;
+}
+.fonctio-text{
+    font-size: 32px;
+    font-weight: bold;
+}
+.resume-commande{
+    background-color: var(--mediumGrey);
+    height: 800px;
+    border-radius: 16px;
+}
+.commande-items{
+    max-height: 80%;
+    overflow-y: scroll;
+}
+.card-commande{
+    background-color: var(--mediumGrey);
+    padding: 16px;
+    border-radius: 16px;
+}
+.gestion-card{
+    background-color: var(--mediumGrey);
+    border-radius: 16px;
+}
+/*TABLEAU*/
+table{
+    border-collapse: collapse;
+}
+th, td{
+    width: 100px;
+    padding: 5px 16px;
+    border: solid 1px black;
+    text-align: center;
+}
+th{
+    background-color: var(--mediumGrey);
+}
+td{
+    background-color: var(--lightGrey);
+}

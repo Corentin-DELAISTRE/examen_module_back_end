@@ -1,0 +1,2 @@
+- Gérer les cl des boissons lors de l'ajout d'un produit à la commande
+- Vérifier les getHTML dans les templates
